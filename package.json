@@ -4,13 +4,20 @@
   "version": "0.0.1",
   "description": "Basic hello world application for Node.js",
   "author": "Robbie Minshall <rjminsha@us.ibm.com>",
+  "scripts" : {
+	"test": "mocha"
+  },
   "dependencies": {
     "express": "3.4.8",
     "mocha": "*",
     "should": "*",
-    "nconf":  "*",
+    "nconf": "*",
     "validator": "*",
-    "jquery":"*",
-    "request-json":"*"
+    "jquery": "*",
+    "request-json": "*"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
   }
 }
